@@ -9,6 +9,7 @@ import pandas as pd
 import torch
 import tensor_parallel as tp
 from tqdm import tqdm
+from evaluator import Evaluator
 # from fairscale.nn.model_parallel.initialize import initialize_model_parallel
 # from llama import ModelArgs, Tokenizer, Transformer
 from transformers import AutoTokenizer, AutoModelForCausalLM, LlamaTokenizer
