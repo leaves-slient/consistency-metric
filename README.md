@@ -7,7 +7,7 @@ We find that even minor alterations in option placements or symbols can modify a
 ckpt_path=$1                 # model path \
 token_path=$2                # tokenizer path \
 cards=$3                     # which gpu need to use \
-name=$4                      # output dir name \
+name=$4                      # output dir name
 
 # usage of common version without vllm
 CUDA_VISIBLE_DEVICES=$cards python C-eval/bash/eval_my_vllm_disturb_v1.py \
