@@ -9,7 +9,7 @@ token_path=$2                # tokenizer path \
 cards=$3                     # which gpu need to use \
 name=$4                      # output dir name
 
-# usage of common version without vllm
+# usage of common version with vllm
 CUDA_VISIBLE_DEVICES=$cards python C-eval/bash/eval_my_vllm_disturb_v1.py \
 --ckpt_dir $ckpt_path \
 --token_dir $token_path \
